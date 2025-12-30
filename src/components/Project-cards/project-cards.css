@@ -1,0 +1,55 @@
+.card {
+    width: 333px;
+    height: 391px;
+    border: 2px solid gray;
+    display: grid;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+
+.h1name {
+    font-size: 16px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.p {
+    color: gray;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.contactbtn2 {
+    width: 148px;
+    height: 37px;
+    border: 1px solid #C778DD;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 10px;
+}
+
+.contactbtn2:hover {
+    background-color: #C778DD;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.contactbtn2:active {
+    transform: scale(0.99);
+    background-color:#7b478a;
+    transition: all 0.1s;
+}

@@ -1,0 +1,37 @@
+.skillcard{
+    width: 180px;
+    height: auto;
+    border: 1px solid gray;
+    transition: all 0.5s;
+}
+
+.skillcard:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.skillcard:hover .skilldescription{
+    color: white;
+    transition: all 0.5s;
+    text-shadow: 0 0 30px white;
+}
+
+.skilltitle{
+    color: white;
+    font-size: 16px;
+    margin-left: 5px;
+    margin: 10px;
+}
+
+.skilldescription{
+    color: gray;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.hr{
+    width: 180px;
+    height: 1px;
+    background-color: gray;
+}
